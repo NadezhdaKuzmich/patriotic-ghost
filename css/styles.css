@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.input-group {
+    min-height: 445px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+    min-height: 445px;
+    background: -webkit-linear-gradient(90deg,#ffffff,#80c5ff);
+}
+
+label {
+    font-size: 20px;
+    color: #033973;
+}
+
+input {
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+#flag {
+    display: none;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}
